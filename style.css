@@ -53,10 +53,8 @@
 	.red {
 		color: red;
 	}
-	#header {
+	#bedrock_header {
 		margin-top: -10px;
-	}
-	#bedrock {
 		background: url(misc/bedrock.png);
 	}
 	#cyan_glass {
