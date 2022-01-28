@@ -1,65 +1,101 @@
-	html, body { 
-		margin: 0;
-		padding: 0; 
-	}
-	body {
-		background: url(misc/bg.gif);
-		size: 1500px;
-		background-color: #777;
-		color: #000000;
-		font-size: 25px;	
-		font-family: 'Lobster', cursive;
-	}
-	hr {
-		width: 98%;
-		height: 5px;
-		margin: 10px;
-		margin-left: auto;
-		margin-right: auto;
-		color: #000; 
-		background-color: purple;
-		border: 0px;
-		border-radius: 50%;
-	}
-	.section {
-		background-color: #555;
-		border-radius: 10px;
-		width: 885px;
-		text-align: center;
-		margin: 15px;
-		margin-right: auto; 
-		margin-left: auto; 
-		padding: 5px;
-	}
-	.avatar {
-		border: 2px dashed #888;
-		border-radius: 50%;
-		margin: 15px;
-		width: 150px;
-		height: 150px;
-		box-shadow: 5px 5px 15px #999;
-	}
-	.quote {
-		text-align: right;
-		margin-top: 10px;
-		color: #fff;
-		text-shadow: 7px 7px 10px #000;
-	}
-	.mrg {
-		margin: 0px;
-		font-family: 'Lobster', cursive;
-		font-size: 34px;
-	}
-	.red {
-		color: red;
-	}
-	#bedrock_header {
-		margin-top: -10px;
-		background: url(misc/bedrock.png);
-	}
-	#cyan_glass {
-		background: rgba(3, 106, 138, .7);
-	}
-	#prismarine_bricks {
-		background: url(misc/prismarine_bricks.png);
-	}
+@import url(https://fonts.googleapis.com/css2?family=Lobster&display=swap);
+html,
+body {
+   margin: 0;
+   padding: 0;
+}
+body {
+   background: url(misc/bg.gif);
+   size: 1500px;
+   background-color: #777;
+   color: #000000;
+   font-size: 25px;
+   font-family: "Lobster", cursive;
+}
+hr {
+   width: 98%;
+   height: 5px;
+   margin: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   color: #000;
+   background-color: purple;
+   border: 0px;
+   border-radius: 50%;
+}
+a,
+a:active,
+a:visited {
+   color: white;
+   text-decoration: none;
+}
+.section {
+   background-color: #555;
+   border-radius: 10px;
+   width: 885px;
+   text-align: center;
+   margin: 15px;
+   margin-right: auto;
+   margin-left: auto;
+   padding: 5px;
+}
+.avatar {
+   border: 2px dashed #888;
+   border-radius: 50%;
+   margin: 15px;
+   width: 150px;
+   height: 150px;
+   box-shadow: 5px 5px 15px #999;
+}
+.icon {
+   margin: 5px;
+   width: 32px;
+   height: 32px;
+}
+.linktile {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+.linkiconblock {
+   display: flex;
+}
+.icon-home {
+   background-image: url(misc/home.png);
+}
+.icon-mfs {
+   background-image: url(misc/mfs.png);
+}
+.icon {
+   display: block;
+}
+.quote {
+   text-align: right;
+   margin-top: 10px;
+   color: #fff;
+   text-shadow: 7px 7px 10px #000;
+}
+.mrg {
+   margin: 0px;
+   font-family: "Lobster", cursive;
+   font-size: 34px;
+}
+.red {
+   color: red;
+}
+#bedrock_header {
+   margin-top: -10px;
+   background: url(misc/bedrock.png);
+}
+#head {
+   border-radius: 0px;
+   margin-top: 0px;
+   border: 2px solid #aaa;
+   border-top: 0px;
+}
+#cyan_glass {
+   background: rgba(3, 106, 138, 0.7);
+}
+#prismarine_bricks {
+   background: url(misc/prismarine_bricks.png);
+}
