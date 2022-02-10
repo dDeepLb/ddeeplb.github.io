@@ -67,6 +67,14 @@ a:visited {
 .icon-mfs {
    background-image: url(misc/mfs.png);
 }
+.icon-top {
+   background-image: url(misc/arrow.png);
+   position: fixed;
+   top: 90%;
+   left: 94%;
+   height: 57px;
+   width: 50px;
+}
 .quote {
    text-align: right;
    margin-top: 10px;
