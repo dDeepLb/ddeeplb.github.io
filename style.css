@@ -27,8 +27,11 @@ hr {
 a,
 a:active,
 a:visited {
-   color: white;
+   color: grey;
    text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
 }
 .section {
    background-color: #555;
