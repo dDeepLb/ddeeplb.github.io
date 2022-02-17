@@ -7,7 +7,6 @@ body {
 }
 body {
    background: url(misc/bg.gif);
-   size: 1500px;
    background-color: #777;
    color: #000000;
    font-size: 25px;
@@ -27,7 +26,7 @@ hr {
 a,
 a:active,
 a:visited {
-   color: grey;
+   color: #444;
    text-decoration: none;
 }
 a:hover {
@@ -96,6 +95,14 @@ a:hover {
 .red {
    color: red;
 }
+table,
+td {
+	border: 2px solid #cecece;
+	border-collapse: collapse;
+	text-align: center;
+	table-layout: fixed;
+	background-color: white;
+}
 #bedrock_header {
    margin-top: -10px;
    background: url(misc/bedrock.png);
@@ -108,9 +115,6 @@ a:hover {
    position: -webkit-sticky;
    position: sticky;
    top: 0px
-}
-#cyan_glass {
-   background: rgba(3, 106, 138, 0.7);
 }
 #prismarine_bricks {
    background: url(misc/prismarine_bricks.png);
