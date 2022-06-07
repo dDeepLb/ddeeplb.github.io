@@ -1,0 +1,32 @@
+.comment-section {
+    max-width: 800px;
+    background-color: aqua;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 0px;
+}
+/*
+.comment {
+    
+}
+.comment-head {
+
+}
+.comment-avatar {
+    width: 55px;
+    height: 55px;
+}
+.comment-name {
+    text-decoration: underline;
+}
+.comment-content {
+
+}
+.comment-content-text {
+
+}
