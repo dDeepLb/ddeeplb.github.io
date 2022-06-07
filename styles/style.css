@@ -1,3 +1,4 @@
+@import url(colors.css);
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   min-height: 100vh;
-  background: #575757;
+  background: var(--wetasph);
 }
 
 hr {
